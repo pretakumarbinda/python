@@ -1,0 +1,6 @@
+mass1 = float(input('1st mass: '))
+mass2 = float(input("2nd mass: "))
+r = float(input("distance: "))
+g = 6.673*(10**(-11))
+force = (g*mass1*mass2)/(r**2)
+print("gravitational force is: ", round(force, 5), 'N')
